@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "863001789729",
+    "project_id": "estoriz",
+    "storage_bucket": "estoriz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863001789729:android:46b2f6abbffc3265cd2a60",
+        "android_client_info": {
+          "package_name": "com.asiavisionpacificprivatelimited.estoriz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrns8CKCpTHc-BlCBvZ9M00FfsF0CdPjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

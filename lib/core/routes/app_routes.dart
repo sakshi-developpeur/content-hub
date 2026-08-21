@@ -1,0 +1,33 @@
+class AppRoutes {
+  static const String splash = '/';
+  static const String onboarding = '/onboarding';
+  static const String root = '/root';
+  static const String signUp = '/signUp';
+  static const String login = '/login';
+  static const String otpVerification = '/otpVerification';
+  static const String forgotPassword = '/forgotPassword';
+  static const String forgotPasswordOtp = '/forgotPasswordOtp';
+  static const String changePassword = '/changePassword';
+  static const String passwordChangedSuccess = '/passwordChangedSuccess';
+  static const String dashboard = '/dashboard';
+  static const String profileSelection = '/profileSelection';
+  static const String createProfile = '/createProfile';
+  static const String home = '/home';
+  static const String categoryDetails = '/categoryDetails';
+  static const String videoList = '/videoList';
+  static const String videoPlayer = '/videoPlayer';
+  static const String watchlist = '/watchlist';
+  static const String watchHistory = '/watchHistory';
+  static const String subscription = '/subscription';
+  static const String announcementDetails = '/announcementDetails';
+  static const String settings = '/settings';
+  static const String myDownloads = '/myDownloads';
+  static const String aboutUs = '/aboutUs';
+  static const String contactUs = '/contactUs';
+  static const String seeAll = '/seeAll';
+  static const String live = '/live';
+  static const String livePlayer = '/livePlayer';
+  static const String privacyPolicy = '/privacyPolicy';
+  static const String termsConditions = '/termsConditions';
+  static const String profileView = '/profileView';
+}

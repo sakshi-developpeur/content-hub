@@ -1,0 +1,32 @@
+stages:
+  - test
+  - build
+
+# Use a standard Flutter docker image
+image: ghcr.io/cirruslabs/flutter:stable
+
+# Cache the dependencies so builds are faster
+cache:
+  paths:
+    - .pub-cache/
+
+before_script:
+  - flutter pub get
+
+# JOB 1: Run Unit Tests
+# This ensures you didn't break any logic
+unit_test:
+  stage: test
+  script:
+    - flutter test
+
+# JOB 2: Build Android APK (Debug Mode)
+# This ensures the app actually compiles successfully
+build_debug_apk:
+  stage: build
+  script:
+    - flutter build apk --debug
+  artifacts:
+    paths:
+      - build/app/outputs/flutter-apk/app-debug.apk
+    expire_in: 3 days
